@@ -48,8 +48,9 @@
   display: block;
   position: absolute;
   top: -20px;
-  right: -131px;
-  width: 0.62962963em;
+  right: -191px;
+  width: 1.62962963em;
+  padding-bottom: 10px;
 }
 
 .grid-container {
