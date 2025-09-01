@@ -11,7 +11,10 @@
 
 .grid-section h2 {
     font-size: 1.8rem;
-    color: #003087;
+    font-family: "RostelecomBasis-Bold";
+    color: #333333;
+    line-height: 2rem;
+    letter-spacing: .004em;
     margin-bottom: 20px;
 }
 
