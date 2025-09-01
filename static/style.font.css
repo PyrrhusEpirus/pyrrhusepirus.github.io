@@ -1,0 +1,37 @@
+/*=============================*
+ *
+ *         F O N T S
+ *
+ ==============================*/
+@font-face {
+  font-family: "RostelecomBasis-Bold";
+  src: url("/static/RostelecomBasis-Bold.eot");
+  src: url("/static/RostelecomBasis-Bold.eot?#iefix") format("embedded-opentype"), url("/static/RostelecomBasis-Bold.woff2") format("woff2"), url("/static/RostelecomBasis-Bold.woff") format("woff"), url("/static/RostelecomBasis-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "RostelecomBasis-Medium";
+  src: url("/static/RostelecomBasis-Medium.eot");
+  src: url("/static/RostelecomBasis-Medium.eot?#iefix") format("embedded-opentype"), url("/static/RostelecomBasis-Medium.woff2") format("woff2"), url("/static/RostelecomBasis-Medium.woff") format("woff"), url("/static/RostelecomBasis-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "RostelecomBasis-Light";
+  src: url("/static/RostelecomBasis-Light.eot");
+  src: url("/static/RostelecomBasis-Light.eot?#iefix") format("embedded-opentype"), url("/static/RostelecomBasis-Light.woff2") format("woff2"), url("/static/RostelecomBasis-Light.woff") format("woff"), url("/static/RostelecomBasis-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "RostelecomBasis";
+  src: url("/static/RostelecomBasis-Regular.eot");
+  src: url("/static/RostelecomBasis-Regular.eot?#iefix") format("embedded-opentype"), url("/static/RostelecomBasis-Regular.woff2") format("woff2"), url("/static/RostelecomBasis-Regular.woff") format("woff"), url("/static/RostelecomBasis-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
