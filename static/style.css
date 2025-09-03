@@ -33,6 +33,25 @@ h2.header-orange {
     letter-spacing: .00015625em;
     color: #fff;
 }
+.header-container {
+    display: flex;
+    align-items: center;
+    max-width: 730px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: left;
+}
+.header-subtext {
+    font-size: 1.5em;
+    color: #fdbaa4;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.7;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
 
 .grid-section .grid-section-flag {
   background-color: #fff;
@@ -69,6 +88,10 @@ h2.header-orange {
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
+}
+
+.grid-tile-content {
+  text-align: left;
 }
 
 .grid-tile:hover {
@@ -252,4 +275,289 @@ h2.header-orange {
 }
 .madeIn a {
   border-bottom: 0;
+}
+
+/* nav */
+.nav {
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  display: block;
+  -webkit-transition: opacity .7s, visivility .7s;
+  transition: opacity .7s, visivility .7s;
+}
+.nav_frame {
+  height: 69px;
+  background: #313948;
+  color: #fff;
+}
+.nav_frame-fixed {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+#bx-panel.bx-panel-fixed ~ .main_frame .nav_frame-fixed {
+  top: 147px;
+}
+#bx-panel.bx-panel-folded.bx-panel-fixed ~ .main_frame .nav_frame-fixed {
+  top: 39px;
+}
+@media all and (max-width: 759px) {
+  .nav_frame {
+    height: 50px;
+  }
+}
+.nav_content {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+}
+@media all and (max-width: 1204px) {
+  .nav_content {
+    height: 100%;
+  }
+}
+.nav_left {
+  vertical-align: middle;
+  display: table-cell;
+}
+.nav_right {
+  vertical-align: middle;
+  display: table-cell;
+  text-align: right;
+}
+.nav_burger-btn {
+  border-bottom: 0;
+  display: inline-block;
+  line-height: 0;
+}
+.nav_btn {
+  display: inline-block;
+  height: 1.166666666666667em;
+  margin-top: .2222222222222222em;
+  width: 1.388888888888889em;
+}
+.nav_burger-btn:hover .nav_btn {
+  fill: #a8b3ba;
+}
+@media all and (max-width: 1204px) {
+  .nav_btn {
+    margin-top: .2777777777777778em;
+  }
+}
+@media all and (max-width: 759px) {
+  .nav_btn {
+    height: .8333333333333333em;
+    margin-top: .3333333333333333em;
+    width: 1.166666666666667em;
+    fill: #fff !important;
+  }
+}
+.nav_search {
+  display: none;
+}
+@media all and (max-width: 1204px) {
+  .nav_search .search {
+    right: 2em;
+    top: .4444444444444444em;
+  }
+}
+@media all and (max-width: 989px) {
+  .nav_search .search {
+    right: 4em;
+  }
+}
+@media all and (max-width: 759px) {
+  .nav_search .search {
+    right: 1.5em;
+  }
+}
+.nav_search .search_toggle {
+  margin-top: 0;
+}
+.nav_search .search_toggle .search_loupe {
+  fill: #fff;
+  height: 1.4em;
+  width: 1.4em;
+}
+@media all and (max-width: 759px) {
+  .nav_search .search_toggle .search_loupe {
+    height: 1em;
+    width: 1em;
+    fill: #fff !important;
+  }
+}
+.nav_search .search_toggle .symbol-close {
+  fill: #fff;
+}
+.nav_search .search_toggle:hover .search_loupe {
+  fill: #a8b3ba;
+}
+.nav_search .search_toggle:hover .symbol-close {
+  fill: #a8b3ba;
+}
+@media all and (max-width: 759px) {
+  .nav_search .search_toggle {
+    margin-right: -0.25em;
+  }
+}
+@media all and (max-width: 759px) {
+  .nav_search .search_field {
+    height: 2.461538461538462em;
+    padding: .3846153846153846em 3em .3846153846153846em .7692307692307692em;
+  }
+}
+@media all and (max-width: 759px) {
+  .nav_search .search_button {
+    right: .8em;
+    top: .5em;
+  }
+}
+@media all and (max-width: 1204px) {
+  .nav_search {
+    display: block;
+  }
+}
+@media all and (max-width: 759px) {
+  .nav_search {
+    display: inline-block;
+    margin-right: .1111111111111111em;
+    vertical-align: middle;
+  }
+}
+.nav_lang {
+  display: none;
+}
+.nav_lang .lang_item {
+  border-color: #fff;
+  color: #fff;
+}
+@media all and (max-width: 759px) {
+  .nav_lang {
+    display: inline-block;
+    margin-top: .2222222222222222em;
+    vertical-align: middle;
+  }
+}
+.nav_sep {
+  display: none;
+}
+@media all and (max-width: 759px) {
+  .nav_sep {
+    background-color: #c0c0c0;
+    display: inline-block;
+    height: 1em;
+    margin: 0 1em;
+    vertical-align: middle;
+    width: 1px;
+  }
+}
+.nav-bottom {
+  margin: 0 auto;
+  padding: 10px 0;
+  border-bottom: 1px solid #cdcdcd;
+  background: #96989a;
+  color: #cdcdcd;
+}
+.nav-bottom .nav_left {
+  display: none;
+}
+.nav-bottom .nav_right {
+  text-align: center;
+}
+.main-home .nav-bottom {
+  /*! background: #96989a; */
+}
+@media all and (max-width: 1204px) {
+  .nav-bottom {
+    padding: 0;
+  }
+}
+.nav-top {
+  height: 69px;
+}
+@media all and (max-width: 759px) {
+  .nav-top {
+    height: 50px;
+  }
+}
+.main-siteMap .nav {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+  visibility: hidden;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+@media all and (max-width: 1204px) {
+  .nav .column {
+    height: 100%;
+  }
+}
+@media all and (max-width: 989px) {
+  .nav .column {
+    margin: 0;
+    padding: 0 42px;
+  }
+}
+@media all and (max-width: 759px) {
+  .nav .column {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+  }
+}
+
+/* mm */
+.mm {
+  margin: 1.15em .2777777777777778em 1.45em 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.nav-bottom .mm {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 1.11111111rem;
+  white-space: nowrap;
+}
+.mm_item {
+  border-bottom: 0;
+  font-size: 14px;
+  font-size: .778em;
+  font-family: "RostelecomBasis-Bold";
+  margin-left: 1.857142857142857em;
+  color: #a8b3ba;
+  white-space: nowrap;
+  letter-spacing: 0.004em;
+  text-decoration: none;
+}
+.mm_item:hover {
+  color: #fff;
+}
+.mm_item:first-child {
+  margin-left: 0;
+}
+.main-en .mm_item:first-child,
+.en .mm_item:first-child {
+  margin-left: 2em;
+}
+.nav-bottom .mm_item {
+  color: #cdcdcd;
+  font-weight: bold;
+  font-size: 0.88888889rem;
+  margin-left: 2.16666667rem;
+}
+.nav-bottom .mm_item:first-child {
+  margin-left: 0;
+}
+.nav-bottom .mm_item:hover {
+  color: #ffffff;
+}
+@media all and (max-width: 1204px) {
+  .mm {
+    display: none;
+  }
 }
