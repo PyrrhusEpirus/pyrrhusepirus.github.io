@@ -74,10 +74,19 @@ h2.header-orange {
 .grid-tile:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 12px rgba(0, 48, 135, 0.2);
-    border: 2px solid #7700ff;
+    /*border: 2px solid #7700ff;*/
+    border-color: #9c46fe;
+    background-color: #9c46fe;
+    color: #fff;
+}
+.grid-tile:hover h3 {
+    color: #fff;
+}
+.grid-tile:hover p {
+    color: #fff;
 }
 
-.grid-tile h3 {
+.grid-container h3 {
     margin-top: 0;
     margin-bottom: 10px;
     font-size: 26px;
@@ -88,10 +97,11 @@ h2.header-orange {
     letter-spacing: .004em;
 }
 
-.grid-tile p {
+.grid-container p {
     font-size: 0.9rem;
     color: #666;
 }
+
 .tooltip {
     text-decoration: underline dotted;
     cursor: help;
