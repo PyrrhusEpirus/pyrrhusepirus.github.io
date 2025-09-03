@@ -92,7 +92,10 @@ h2.header-orange {
     font-size: 0.9rem;
     color: #666;
 }
-
+.tooltip {
+    text-decoration: underline dotted;
+    cursor: help;
+}
 @media (max-width: 768px) {
     .grid-container {
         grid-template-columns: repeat(2, 1fr);
