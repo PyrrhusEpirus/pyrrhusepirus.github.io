@@ -1,0 +1,105 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+@media (max-width: 768px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+}
+.card {
+    position: relative;
+    width: 280px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    flex-shrink: 0;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    transform: scale(1.10);
+    box-shadow: 0 4px 12px rgba(0, 48, 135, 0.6);
+    /*
+    box-shadow: 0 4px 12px rgb(156, 70, 254, 0.6);
+    border-color: #9c46fe;
+    background-color: #9c46fe;
+    background-image: none;
+    */
+}
+
+/* Placeholder backgrounds to mimic images; replace with actual image URLs if available */
+.card:nth-child(1) {
+    background-image: url("img/grid01.jpg");
+}
+
+.card:nth-child(2) {
+    background-image: url("img/grid02.jpg");
+}
+
+.card:nth-child(3) {
+    background-image: url("img/grid03.jpg");
+}
+
+.card:nth-child(4) {
+    background-image: url("img/grid04.jpg");
+}
+
+.card:nth-child(5) {
+    background-image: url("img/grid05.jpg");
+}
+
+.card:nth-child(6) {
+    background-image: url("img/grid06.jpg");
+}
+
+.tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ff6600;
+    color: #ffffff;
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.tag::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 20px;
+    border: 8px solid transparent;
+    border-top-color: #ff6600;
+}
+
+.description {
+    color: #fff;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    font-size: 14px;
+    line-height: 1.4;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    background-color: rgba(128, 128, 128, 0.5);
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    padding-left: 10px;
+    border-radius: 8px;
+    width: 250px;
+}
