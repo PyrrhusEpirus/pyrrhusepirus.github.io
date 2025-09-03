@@ -11,7 +11,7 @@
     <meta property="og:description" content="test description">
     <meta property="og:type" content="website">
     <meta property="og:image"
-        content="/static/rostelecomlogo.png">
+        content="/static/rostelecomlogo_plmnavigator.png">
     <link rel="canonical" href="http://bik.rt.tilda.ws/"> <!--/metatextblock-->
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="x-dns-prefetch-control" content="on">
@@ -22,6 +22,7 @@
     <script type="text/javascript" async="" id="tildastatscript"
         src="./static/tilda-stat-1.0.min.js"></script>
     <script src="./static/tilda-fallback-1.0.min.js" async="" charset="utf-8"></script>
+    <link rel="stylesheet" href="./static/style.page.00.css" type="text/css" media="all">
     <link rel="stylesheet" href="./static/style.css" type="text/css" media="all">
     <link rel="stylesheet" href="./static/style.footer.css" type="text/css" media="all">
     <link rel="stylesheet" href="./static/style.font.css" type="text/css" data-template-style="true">
@@ -87,25 +88,28 @@
                 data-menu-items-align="right" data-menu="yes">
                 <div class="t456__maincontainer " style="height:150px;">
                     <div class="t456__leftwrapper" style="min-width:200px;width:200px;">
-                        <div class="t456__logowrapper" style="display: block;"> <a href="http://bik.rt.tilda.ws/"> <img
-                                    class="t456__imglogo t456__imglogomobile" src="./static/rostelecomlogo.png"
+                        <div class="t456__logowrapper" style="display: block;"> <a href="/"> <img
+                                    class="t456__imglogo t456__imglogomobile" src="./static/rostelecomlogo_plmnavigator.png"
                                     imgfield="img" style="max-width: 200px; width: 200px;"
-                                    alt="БИК ПАО &quot;Ростелеком&quot;"> </a> </div>
+                                    alt="&quot;Ростелеком&quot;"> </a> </div>
                     </div>
                     <nav class="t456__rightwrapper t456__menualign_right" style="">
                         <ul role="list" class="t456__list t-menu__list">
                             <li class="t456__list_item" style="padding:0 0 0 15px;"> <a class="t-menu__link-item"
-                                    href="https://project8412187.tilda.ws/page42710570.html" data-menu-submenu-hook=""
+                                    href="/" data-menu-submenu-hook=""
                                     data-menu-item-number="3">Контакты</a> </li>
                             <li class="t456__list_item" style="padding:0 0 0 15px;"> <a class="t-menu__link-item"
-                                    href="https://project8412187.tilda.ws/page42710570.html" data-menu-submenu-hook=""
-                                    data-menu-item-number="3">Документы</a> </li>
+                                    href="/" data-menu-submenu-hook=""
+                                    data-menu-item-number="3">Шаблоны</a> </li>
                             <li class="t456__list_item" style="padding:0 0 0 15px;"> <a class="t-menu__link-item"
-                                    href="https://project8412187.tilda.ws/page42710570.html" data-menu-submenu-hook=""
-                                    data-menu-item-number="3">Нормативные документы</a> </li>
+                                    href="/" data-menu-submenu-hook=""
+                                    data-menu-item-number="3">документы</a> </li>
                             <li class="t456__list_item" style="padding:0 0 0 15px;"> <a class="t-menu__link-item"
-                                    href="https://project8412187.tilda.ws/page42710570.html" data-menu-submenu-hook=""
-                                    data-menu-item-number="3">Fast Trak</a> </li>
+                                    href="/" data-menu-submenu-hook=""
+                                    data-menu-item-number="3">Fast Track</a> </li>
+                            <li class="t456__list_item" style="padding:0 0 0 15px;"> <a class="t-menu__link-item"
+                                    href="/" data-menu-submenu-hook=""
+                                    data-menu-item-number="3">Глоссарий</a> </li>
                         </ul>
                     </nav>
                 </div>
@@ -887,31 +891,71 @@
                     }
                 }
             </style>
-            <div class="t396">
+            <div class="t396 list-container-wrapper">
                 <div class="list-container">
-                    <h1>Про продукт</h1>
+                    <h2 class="header-orange">Про продукт</h2>
                     <div class="list-item">
-                        <span class="list-number">1</span>
-                        <span class="list-content">Idea</span>
+                        <div class="list-header">
+                            <span class="list-number">1</span>
+                            <span class="list-title">Идея</span>
+                        </div>
+                        <div class="list-content">Концепция продукта, определяет, что именно будет представлять собой продукт, какую проблему он будет решать и какую ценность он предложит пользователям.</div>
                     </div>
                     <div class="list-item">
-                        <span class="list-number">2</span>
-                        <span class="list-content">Protoype</span>
+                        <div class="list-header">
+                            <span class="list-number">2</span>
+                            <span class="list-title">Прототип</span>
+                        </div>
+                        <div class="list-content">Предварительная версия или модель продукта, созданная для демонстрации его концепции, функциональности или дизайна. Прототип помогает визуализировать идею, проверить техническую реализуемость и собрать обратную связь от пользователей или заинтересованных сторон до начала полномасштабной разработки.</div>
                     </div>
                     <div class="list-item">
-                        <span class="list-number">3</span>
-                        <span class="list-content">MVP</span>
+                        <div class="list-header">
+                            <span class="list-number">3</span>
+                            <span class="list-title">MVP (Minimum Viable Product - Минимально жизнеспособный продукт)</span>
+                        </div>
+                        <div class="list-content">Версия продукта с минимальным набором функций, которая позволяет проверить ключевые гипотезы и получить обратную связь от целевой аудитории с минимальными затратами ресурсов. Основная цель MVP — быстро выйти на рынок, чтобы понять, есть ли спрос на продукт, и использовать полученные данные для дальнейшего развития.</div>
                     </div>
                     <div class="list-item">
-                        <span class="list-number">4</span>
-                        <span class="list-content">MLP</span>
+                        <div class="list-header">
+                            <span class="list-number">4</span>
+                            <span class="list-title">MLP (Minimal Loveable Product - Минимально привлекательный продукт)</span>
+                        </div>
+                        <div class="list-content">Следующая версия после MVP, которая предполагает создание продукта не только с минимальным функционалом, но и с элементами, к которым уже привык пользователь на момент запуска продукта, вызывающими положительные эмоции у пользователя. MLP делает продукт не просто функциональным, но и привлекательным, запоминающимся и готовым к использованию в реальной жизни.</div>
                     </div>
                     <div class="list-item">
-                        <span class="list-number">5</span>
-                        <span class="list-content">...</span>
+                        <div class="list-header">
+                            <span class="list-number">5</span>
+                            <span class="list-title">Масштабирование продукта</span>
+                        </div>
+                        <div class="list-content">Стадия жизненного цикла продукта, которая включает все запланированные функции и улучшения на основе обратной связи от MVP и MLP. На данной стадии происходит кратный рост продукта, выход на положительный операционный денежный поток.</div>
+                    </div>
+                    <div class="list-item">
+                        <div class="list-header">
+                            <span class="list-number">6</span>
+                            <span class="list-title">Зрелый продукт</span>
+                        </div>
+                        <div class="list-content">Стабильная версия с оптимизированными процессами, высокой удовлетворённостью пользователей и устойчивой долей рынка. На данной стадии продукт как правило достигает окупаемости и приносит положительный свободный денежный поток.</div>
                     </div>
                 </div>
             </div>
+            <script>
+                document.querySelectorAll('.list-header').forEach(header => {
+                    header.addEventListener('click', () => {
+                        const parent = header.parentElement;
+                        const isActive = parent.classList.contains('active');
+                        
+                        // Close all items
+                        document.querySelectorAll('.list-item').forEach(item => {
+                            item.classList.remove('active');
+                        });
+                        
+                        // Open clicked item if it wasn't already active
+                        if (!isActive) {
+                            parent.classList.add('active');
+                        }
+                    });
+                });
+            </script>
             <script>t_onReady(function () { t_onFuncLoad('t396_init', function () { t396_init('690414317'); }); });</script>
             <!-- /T396 -->
         </div>
