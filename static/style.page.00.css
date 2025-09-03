@@ -31,7 +31,10 @@
     overflow: hidden;
 }
 .list-item:hover {
+    color:#7700ff;
+    background-color: #b16dfe;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #7700ff;
 }
 .list-number {
     font-size: 1.5em;
@@ -71,6 +74,6 @@
 .list-item.active {
     border-left: 5px solid #7700ff;
 }
-.list-item.active .list-number {
+.list-item:hover .list-number {
     color:#7700ff;
 }

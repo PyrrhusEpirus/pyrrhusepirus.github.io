@@ -975,6 +975,17 @@
                     </div>
                 </div>
             </div>
+            <script>
+                function changeCentered() {
+                    document.querySelectorAll('.grid-container .grid-tile-content').forEach(item => {
+                        if(item.classList.contains('centered')) {
+                            item.classList.remove('centered');
+                        } else {
+                            item.classList.add('centered');
+                        }
+                    });
+                }
+            </script>
             <script>t_onReady(function () { t_onFuncLoad('t396_init', function () { t396_init('690414317'); }); });</script>
             <!-- /T396 -->
         </div>
@@ -1053,6 +1064,7 @@
 				<div class="nav_right">
 					<nav class="mm">
                         <a class="mm_item" href="index.html">Переключиться на альтернативный дизайн</a>
+                        <a class="mm_item" href="#" onclick="changeCentered()">[ x ]</a>
                     </nav>
 				</div>
 			</div>

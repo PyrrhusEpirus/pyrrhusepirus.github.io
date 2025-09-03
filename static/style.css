@@ -102,7 +102,9 @@ h2.header-orange {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
 }
-
+.centered {
+    text-align: center;
+}
 .grid-tile-title {
     word-break: break-word; /* Prevents overflow by breaking long words */
     text-align: center;
