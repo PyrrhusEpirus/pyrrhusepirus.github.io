@@ -1,3 +1,14 @@
+.t396 a {
+  color: #fff;
+}
+.t456__list_item a {
+  color: #fff;
+  opacity: 0.7;
+}
+.t456__list_item a:hover {
+  color: #fff;
+  opacity: 1;
+}
 .container {
     max-width: 1200px;
     margin: 40px auto;
@@ -82,27 +93,25 @@ h2.header-orange {
 }
 
 .grid-tile {
+    color: #000;
     background-color: #fff;
     border: 1px solid #e0e0e0;
     border-radius: 8px;
     padding: 20px;
-    text-align: center;
+    text-align: left;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
 }
+
 .grid-tile-title {
     word-break: break-word; /* Prevents overflow by breaking long words */
     text-align: center;
     margin-bottom: 10px;
     flex-shrink: 0; /* Prevents header from shrinking */
-    
-}
-.grid-title-min-height {
-  min-height: 60px;
 }
 
-.grid-tile-content {
-    text-align: left;
+.grid-title-min-height {
+  min-height: 60px;
 }
 
 .grid-tile:hover {
@@ -117,6 +126,9 @@ h2.header-orange {
     color: #fff;
 }
 .grid-tile:hover p {
+    color: #fff;
+}
+.grid-tile:hover a {
     color: #fff;
 }
 

@@ -6,3 +6,17 @@ X 4. FAQ
 X 6. Change the order of the top menu
 7. Pictures for the boxes (2 variants)
 X 8. Link last item of the 2nd box to here http://sks06ap036:5568/businessmodel.php?oguid=af1f5430-c94f-46a6-86cd-f81b1d276c97
+
+5. Divide the text inside 6 boxes on the start page and make it one level vertically and centered
+7. Pictures for the boxes (2 variants)
+--------------------------------------------------------------
+
+
+X 1. Switch back/forth to old site with purple boxes and image boxes
+X 2. Box text more visible, with darker images at the bottom.
+X 3. No orange links!
+4. Button to switch back/forth with center/left text alignment in boxes
+X 5. Fix first box text
+6. Add purple hover of boxes for FAQ & product page (1st box) ... [keep gallery the same]
+X 7. All links outside of website, have them open in new tab
+X 8. Fix main menu, have it all grey color links.

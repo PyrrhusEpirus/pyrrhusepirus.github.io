@@ -11,7 +11,7 @@
     background-color: none
 }
 
-#allrecords a {
+#allrecords a:hover {
     color: #ff8562;
     text-decoration: none
 }
@@ -80,7 +80,7 @@
 }
 
 .t-records a {
-    color: #ff8562;
+    color: #666;
     text-decoration: none
 }
 
