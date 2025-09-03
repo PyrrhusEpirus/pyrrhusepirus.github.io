@@ -556,8 +556,3 @@ h2.header-orange {
 .nav-bottom .mm_item:hover {
   color: #ffffff;
 }
-@media all and (max-width: 1204px) {
-  .mm {
-    display: none;
-  }
-}
