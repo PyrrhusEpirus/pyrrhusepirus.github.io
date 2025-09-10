@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт в разработке</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #f0f0f0 0%, #d9d9d9 100%);
+            font-family: 'Arial', sans-serif;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            max-width: 500px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #FF4500; /* Construction orange */
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .construction-image {
+            margin-top: 20px;
+        }
+
+        svg {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Animation for fade-in effect */
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Responsive design */
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+                margin: 10px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            p {
+                font-size: 1em;
+            }
+
+            svg {
+                width: 200px;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Сайт в разработке</h1>
+        <p>Мы активно работаем над созданием нового сайта. Скоро он будет готов!</p>
+        <div class="construction-image">
+            <svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Road -->
+                <rect x="0" y="150" width="300" height="50" fill="#4A4A4A"/>
+                <rect x="50" y="160" width="50" height="30" fill="#FFD700"/>
+                <rect x="150" y="160" width="50" height="30" fill="#FFD700"/>
+                <!-- Construction Worker -->
+                <circle cx="150" cy="80" r="20" fill="#FFD700"/> <!-- Helmet -->
+                <rect x="130" y="100" width="40" height="60" fill="#FF8C00"/> <!-- Body -->
+                <rect x="120" y="100" width="10" height="30" fill="#FF8C00"/> <!-- Left Arm -->
+                <rect x="170" y="100" width="10" height="30" fill="#FF8C00"/> <!-- Right Arm -->
+                <rect x="135" y="160" width="15" height="30" fill="#654321"/> <!-- Left Leg -->
+                <rect x="150" y="160" width="15" height="30" fill="#654321"/> <!-- Right Leg -->
+                <!-- Shovel -->
+                <rect x="170" y="110" width="5" height="60" fill="#666"/> <!-- Handle -->
+                <rect x="165" y="170" width="15" height="10" fill="#999"/> <!-- Blade -->
+                <!-- Construction Sign -->
+                <rect x="220" y="120" width="40" height="40" fill="#FF4500"/>
+                <text x="230" y="145" font-size="12" fill="#FFF" font-family="Arial">!</text>
+            </svg>
+        </div>
+    </div>
+</body>
+</html>
