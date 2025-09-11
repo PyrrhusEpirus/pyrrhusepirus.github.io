@@ -1,0 +1,68 @@
+.grid-tile {
+    /*color: #000;*/
+    color: #FFF;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.grid-container .grid-tile a {
+  color: #FFF;
+}
+.grid-container a.grid-tile {
+  color: #FFF;
+}
+
+.grid-container .grid-tile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 48, 135, 0.2) !important;
+    /*border: 2px solid #7700ff;*/
+    border-color: #9c46fe !important;
+    background-color: #9c46fe !important;
+    background-image:none !important;
+    color: #fff;
+}
+
+.grid-tile:nth-child(1) {
+    background-image: url("img/pattern-1.png");
+    background-size: cover;
+    background-position: center; /* Optional: centers the image */
+    background-repeat: no-repeat; /* Optional: prevents tiling */
+}
+
+.grid-tile:nth-child(2) {
+    background-image: url("img/pattern-2.png");
+    background-size: cover;
+    background-position: center; /* Optional: centers the image */
+    background-repeat: no-repeat; /* Optional: prevents tiling */
+}
+
+.grid-tile:nth-child(3) {
+    background-image: url("img/pattern-3.png");
+    background-size: cover;
+    background-position: center; /* Optional: centers the image */
+    background-repeat: no-repeat; /* Optional: prevents tiling */
+}
+
+.grid-tile:nth-child(4) {
+    background-image: url("img/pattern-2.png");
+    background-size: cover;
+    background-position: center; /* Optional: centers the image */
+    background-repeat: no-repeat; /* Optional: prevents tiling */
+}
+
+.grid-tile:nth-child(5) {
+    background-image: url("img/pattern-3.png");
+    background-size: cover;
+    background-position: center; /* Optional: centers the image */
+    background-repeat: no-repeat; /* Optional: prevents tiling */
+}
+
+.grid-tile:nth-child(6) {
+    background-image: url("img/pattern-1.png");
+    background-size: cover;
+    background-position: center; /* Optional: centers the image */
+    background-repeat: no-repeat; /* Optional: prevents tiling */
+}
