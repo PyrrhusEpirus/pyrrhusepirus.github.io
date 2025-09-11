@@ -20,3 +20,9 @@ X 5. Fix first box text
 X 6. Add purple hover of boxes for FAQ & product page (1st box) ... [keep gallery the same]
 X 7. All links outside of website, have them open in new tab
 X 8. Fix main menu, have it all grey color links.
+
+--------------------------------------------------------------
+
+1. Box 1: Link 3 - Make it like the Product but with white letters when purple background
+Change the text of the link to be the better Russian word
+2. Make a warning text label interesting (currently highlighted yellow) in the document

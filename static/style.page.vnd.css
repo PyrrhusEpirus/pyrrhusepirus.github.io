@@ -1,0 +1,92 @@
+.list-container-wrapper {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7700FF;
+}
+
+.list-container {
+    text-align: center;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 600px;
+    width: 100%;
+}
+
+/*
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+@media (max-width: 768px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+}
+*/
+
+
+.list-container h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.2em;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.list-item {
+    color: #FFF;
+    /*border-left: 5px solid #cdcdcd;*/
+    transition: box-shadow 0.3s ease;
+    overflow: hidden;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.list-title {
+    font-family: "RostelecomBasis-Regular";
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #101828;
+    flex-grow: 1;
+    opacity: 1;
+}
+.list-header {
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+.list-content {
+    background-color: #8348fc;
+    text-align:left;
+    overflow: hidden;
+}
+.list-content-1 {
+    font-family: "RostelecomBasis-Medium";
+    margin-left:10px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.list-content .list-content-4 a {
+    color: #FFF;
+}
+.list-content-4 {
+    font-family: "RostelecomBasis-Regular";
+    font-size: 1.1em;
+    margin-top: 10px;
+    margin-left:10px;
+    padding-bottom: 15px;
+}
