@@ -26,3 +26,11 @@ X 8. Fix main menu, have it all grey color links.
 1. Box 1: Link 3 - Make it like the Product but with white letters when purple background
 Change the text of the link to be the better Russian word
 2. Make a warning text label interesting (currently highlighted yellow) in the document
+
+
+---------------------------------------------------------------
+
+1. Glossary highlight with purple
+2. Main logo, left PLM Navigator, to the right text subheadline. Same Rostelecom orange style though
+3. Red = Orange
+4. 2nd box, 5 line. No changes (Rostelecom needs to change their page)

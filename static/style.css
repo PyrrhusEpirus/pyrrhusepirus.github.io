@@ -632,3 +632,50 @@ h2.header-orange {
 .nav-bottom .mm_item:hover {
   color: #ffffff;
 }
+
+
+
+
+
+/*********************************************************/
+/************** PREVIOUS BASE INLINE CSS *****************/
+/*********************************************************/
+@media screen and (max-width:980px) {
+    #rec690593968 .t456__leftcontainer {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:980px) {
+    #rec690593968 .t456__imglogo {
+        padding: 20px 0;
+    }
+}
+@supports (overflow:-webkit-marquee) and (justify-content:inherit) {
+
+  #rec690593968 .t-menu__link-item,
+  #rec690593968 .t-menu__link-item.t-active {
+      opacity: 1 !important;
+  }
+}
+@media screen and (max-width:980px) {
+    #rec690593968 .t-menusub__menu .t-menusub__link-item {
+        color: #ffffff !important;
+    }
+
+    #rec690593968 .t-menusub__menu .t-menusub__link-item.t-active {
+        color: #ffffff !important;
+    }
+}
+#rec690593968 .t456__logowrapper a {
+    color: #ffffff;
+}
+
+#rec690593968 .t456 a.t-menu__link-item {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 600;
+}
+#rec690593968 .t456__logo {
+    color: #ffffff;
+}

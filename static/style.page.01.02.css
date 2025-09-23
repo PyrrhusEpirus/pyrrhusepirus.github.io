@@ -1,0 +1,29 @@
+.list-content .rectangle {
+    max-width: 1200px;
+    max-height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.list-content .label {
+    background-color: #7700FF;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.list-content #rect1 {
+    background-image: url('img/ceo_008.jpeg');
+}
+.list-content #rect2 {
+    background-image: url('img/middle_aged_office_coworkers_005.jpg');
+}
+.list-content #rect3 {
+    background-image: url('img/young_workers_008.jpeg');
+}
