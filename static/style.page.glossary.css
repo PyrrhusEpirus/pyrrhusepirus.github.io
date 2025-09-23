@@ -31,6 +31,7 @@
     overflow: hidden;
 }
 .list-item:hover {
+    background-color: #b16dfe;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 .list-number {
