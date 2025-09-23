@@ -62,11 +62,8 @@ h2.header-orange {
 */
 
 .header-container {
-    align-items: center;
-    max-width: 500px;
     margin: 0 auto;
-    text-align: left;
-    padding: 20px 20px 60px 100px;
+    text-align: center;
 }
 h2.header-orange {
     display: inline-block;
@@ -82,14 +79,13 @@ h2.header-orange {
 }
 .header-subtext {
     display: inline-block;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #FFF;
     background-color: #ff4f12;
     font-family: "RostelecomBasis-Bold";
     font-weight: 400;
     white-space: nowrap;
     margin: 0;
-    line-height: 1.2;
     max-width: 750px;
     margin-left: auto;
     margin-right: auto;
