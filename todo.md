@@ -57,6 +57,6 @@ X 14. Underlines for all links, like box 3
 X 15. 00_01 image as wide as screen
 X 16. 01_00 First K is capitalized. Kometyeta not capitalized
 17. 01_01 fix signs, use images. Good ones!
-18. Next after 01_03, make it a new tab.
-19. submenu black background like main menu, with orange letters.
-20. submenu; change Адрес Офиса ПК to Написать в Офис ПК
+X 18. Next after 01_03, make it a new tab.
+X 19. submenu black background like main menu, with orange letters.
+X 20. submenu; change Написать в Офис ПК to Написать в Офис ПК

@@ -535,8 +535,8 @@ h2.header-orange {
   margin: 0 auto;
   padding: 10px 0;
   border-bottom: 1px solid #cdcdcd;
-  background: #babec1;
-  color: #cdcdcd;
+  background: rgba(51,51,51,1);
+  color: #ff4f12;
 }
 .nav-bottom .nav_left {
   display: none;
@@ -611,7 +611,7 @@ h2.header-orange {
   text-decoration: none;
 }
 .mm_item:hover {
-  color: #fff;
+  color: #ff4f12;
 }
 .mm_item:first-child {
   margin-left: 0;
@@ -621,7 +621,7 @@ h2.header-orange {
   margin-left: 2em;
 }
 .nav-bottom .mm_item {
-  color: #d9d9d9;
+  color: #FFF;
   font-weight: bold;
   font-size: 0.88888889rem;
   margin-left: 2.16666667rem;
@@ -630,7 +630,7 @@ h2.header-orange {
   margin-left: 0;
 }
 .nav-bottom .mm_item:hover {
-  color: #ffffff;
+  color: #ff4f12;
 }
 
 
