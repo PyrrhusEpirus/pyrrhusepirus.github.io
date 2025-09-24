@@ -35,7 +35,7 @@ X 2. Main logo, left PLM Navigator, to the right text subheadline. Same Rostelec
 X 1. Box 2 link 4, spelled wrong in box menu..  Офис ПК
 X 2. No DOTS !
 X 3. 01_03 .. move email line below name links (NO DOTS!). "!" mark end of white headline
-4. 01_00 - bullet points, space inbetween each bullet point. No dot at end of first paragraph
+X 4. 01_00 - bullet points, space inbetween each bullet point. No dot at end of first paragraph
 5. 01_01 first buttons, 3 buttons last button, first PC needs to be removed.
 Житкова Инна Сергеевна
 6. 01_01Опция 1 По вопросам, требующим обязательного согласования в СИП (см Регламент Р3.1, ссылка на раздел ВНД link https://www.portal.rt.ru/wps/myportal/Home/servises/ind-registry#document-details/6EEC10AE-AECB-43F7-8872-BB426C98A504), например, для новых продуктов с целью получения финансирования, согласования ввода новых штатных единиц, материалы согласовываются в системе инвестиционного планирования (СИП)
