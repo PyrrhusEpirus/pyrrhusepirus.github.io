@@ -54,7 +54,7 @@ X 12. submenu, more visible (brighter). Submenu: "Интерактивная д�
 X 13. Next link in box, "NEXT" at the very bottom above submenu. "COME BACK" button left side. Last link only "COME BACK"... first one only "NEXT"
 
 X 14. Underlines for all links, like box 3
-15. 00_01 image as wide as screen
+X 15. 00_01 image as wide as screen
 16. 01_00 First K is capitalized. Kometyeta not capitalized
 17. 01_01 fix signs, use images. Good ones!
 18. Next after 01_03, make it a new tab.
