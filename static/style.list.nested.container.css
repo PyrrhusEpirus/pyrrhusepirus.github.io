@@ -19,6 +19,11 @@
     transition: box-shadow 0.3s ease;
     overflow: hidden;
 }
+.list-nested-item.active .list-nested-content {
+    display: block;
+    max-height: 500px; /* Adjust based on content size */
+    opacity: 1;
+}
 .list-nested-item:hover {
     background-color: #ffffff80;
 }
@@ -39,6 +44,7 @@
     cursor: pointer;
 }
 .list-nested-content {
+    display: none;
     font-size: 1em;
     color: #34495e;
     padding: 0 15px 15px 75px;
@@ -48,8 +54,4 @@
     overflow: hidden;
     text-align:left;
     margin-top: 10px;
-}
-.list-nested-item.active .list-nested-content {
-    max-height: 500px; /* Adjust based on content size */
-    opacity: 1;
 }

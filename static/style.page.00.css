@@ -30,6 +30,9 @@
     transition: box-shadow 0.3s ease;
     overflow: hidden;
 }
+.list-item.active .list-content {
+    display: block;
+}
 .list-item:hover {
     color:#7700ff;
     background-color: #b16dfe;
@@ -61,6 +64,7 @@
     cursor: pointer;
 }
 .list-content {
+    display: none;
     font-size: 1em;
     color: #34495e;
     padding: 0 15px 15px 75px;
