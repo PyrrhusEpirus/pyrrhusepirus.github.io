@@ -29,3 +29,21 @@ X 2. Make a warning text label interesting (currently highlighted yellow) in the
 
 X 1. Glossary highlight with purple
 X 2. Main logo, left PLM Navigator, to the right text subheadline. Same Rostelecom orange style though
+
+---------------------------------------------------------------
+
+1. Box 2 link 4, spelled wrong in box menu..  Офис ПК
+2. No DOTS !
+3. 01_03 .. move email line below name links (NO DOTS!). "!" mark end of white headline
+4. 01_00 - bullet points, space inbetween each bullet point. No dot at end of first paragraph
+5. 01_01 first buttons, 3 buttons last button, first PC needs to be removed.
+Житкова Инна Сергеевна
+6. 01_01Опция 1 По вопросам, требующим обязательного согласования в СИП (см Регламент Р3.1, ссылка на раздел ВНД link https://www.portal.rt.ru/wps/myportal/Home/servises/ind-registry#document-details/6EEC10AE-AECB-43F7-8872-BB426C98A504), например, для новых продуктов с целью получения финансирования, согласования ввода новых штатных единиц, материалы согласовываются в системе инвестиционного планирования (СИП)
+Житкова Инна Сергеевна
+7. 01_01 Опция 2 По иным вопросам, не требующим обязательного согласования в СИП согласно Регламенту Р3.1 link https://www.portal.rt.ru/wps/myportal/Home/servises/ind-registry#document-details/6EEC10AE-AECB-43F7-8872-BB426C98A504, материалы направляются на prodcom@rt.ru
+3 рабочих дня — такой срок установлен для рассылки повестки и материалов до даты проведения ПК.
+Житкова Инна Сергеевна
+8. 01_01 Временные ограничения   [sign Brett green good] 3 рабочих дня (не менее) такой срок установлен для рассылки повестки и материалов до даты проведения ПК  [sign Brett red stop bad] Менее 3 дней - Материалы, предоставленные Докладчиками, не принимаются для рассмотрения на ПК. За исключением вопросов, согласованных Председателем ПК
+9. Main headline got bigger, but all the page headlines got bigger. Fix!
+10. 01_02 link to new tab. dummy!
+11. 00_03 .. template, hover purple should make text white. Need to do that for all pages (glossary, FAQ)
