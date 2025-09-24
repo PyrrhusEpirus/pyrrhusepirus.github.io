@@ -1,4 +1,7 @@
 .list-container .list-content {
-    padding: 0 15px 15px 15px;
+    padding: 0 15px 15px 25px;
+}
+.list-container .list-nested-content {
+    padding: 0 15px 15px 35px;
 }
 

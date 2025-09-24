@@ -534,7 +534,7 @@ h2.header-orange {
   margin: 0 auto;
   padding: 10px 0;
   border-bottom: 1px solid #cdcdcd;
-  background: #96989a;
+  background: #babec1;
   color: #cdcdcd;
 }
 .nav-bottom .nav_left {
@@ -620,7 +620,7 @@ h2.header-orange {
   margin-left: 2em;
 }
 .nav-bottom .mm_item {
-  color: #cdcdcd;
+  color: #d9d9d9;
   font-weight: bold;
   font-size: 0.88888889rem;
   margin-left: 2.16666667rem;

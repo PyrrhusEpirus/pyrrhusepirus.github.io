@@ -59,6 +59,7 @@
     font-size: 1em;
     color: #34495e;
     padding-bottom: 15px;
+    padding-left: 15px;
     max-height: 0;
     opacity: 0;
     transition: max-height 0.3s ease, opacity 0.3s ease;
