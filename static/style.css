@@ -1,9 +1,11 @@
 .t396 a {
   color: #fff;
+  text-decoration: underline dotted !important;
 }
 .t456__list_item a {
   color: #fff;
   opacity: 0.7;
+  text-decoration: underline dotted !important;
 }
 .t456__list_item a:hover {
   color: #fff;
@@ -174,7 +176,6 @@ h2.header-orange {
 
 .tooltip {
     text-decoration: underline dotted;
-    cursor: help;
 }
 
 .warning-alert {

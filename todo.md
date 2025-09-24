@@ -51,5 +51,12 @@ X 9. Main headline got bigger, but all the page headlines got bigger. Fix!
 X 10. 01_02 link to new tab. dummy!
 X 11. 00_03 .. template, hover purple should make text white. Need to do that for all pages (glossary, FAQ)
 X 12. submenu, more visible (brighter). Submenu: "Интерактивная диаграмма процесса" change to "Интерактивная Интерактивная диаграмма процесса"
+X 13. Next link in box, "NEXT" at the very bottom above submenu. "COME BACK" button left side. Last link only "COME BACK"... first one only "NEXT"
 
-13. Next link in box, "NEXT" at the very bottom above submenu. "COME BACK" button left side. Last link only "COME BACK"... first one only "NEXT"
+X 14. Underlines for all links, like box 3
+15. 00_01 image as wide as screen
+16. 01_00 First K is capitalized. Kometyeta not capitalized
+17. 01_01 fix signs, use images. Good ones!
+18. Next after 01_03, make it a new tab.
+19. submenu black background like main menu, with orange letters.
+20. submenu; change Адрес Офиса ПК to Написать в Офис ПК
