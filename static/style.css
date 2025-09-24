@@ -72,10 +72,13 @@ h2.header-orange {
     white-space: nowrap;
     font-family: "RostelecomBasis-Bold";
     font-weight: bold;
-    font-size: 4em;
+    font-size: 3em;
     line-height: 1.125;
     letter-spacing: .00015625em;
     color: #fff;
+}
+.container h2.header-orange {
+  font-size: 4em;
 }
 .header-subtext {
     display: inline-block;
