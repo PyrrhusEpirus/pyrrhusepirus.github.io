@@ -96,7 +96,13 @@ h2.header-orange {
     margin-right: auto;
     padding: 0.03703704em 0.33333333em;
 }
-
+.simple-two-column-table tr td:first-child {
+    font-weight: bold;
+    text-align: right;
+}
+.simple-two-column-table tr td:nth-child(2) {
+    padding-left: 10px;
+}
 .grid-section {
     margin-bottom: 60px;
     text-align: center;

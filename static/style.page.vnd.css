@@ -79,6 +79,18 @@
     font-size: 32px;
     font-weight: bold;
 }
+.list-content-2 {
+    font-family: "RostelecomBasis-Medium";
+    margin-left:10px;
+    font-size: 26px;
+    font-weight: bold;
+}
+.list-content-3 {
+    font-family: "RostelecomBasis-Medium";
+    margin-left:10px;
+    font-size: 18px;
+    font-weight: bold;
+}
 .list-content .list-content-4 a {
     color: #FFF;
 }
